@@ -2,11 +2,11 @@
 
 ## Motivation
 
-This is an Android mobile client that interacts with a simple web application. It was built for a prospective employer to demonstrate simple interactions with a RESTful web service ([median-project-rails](https://github.com/egarson/median-project-rails)).
+This is an Android mobile client that interacts with a simple web application. It was built for a prospective employer to demonstrate simple interactions with a RESTful web service ([median-price-rails](https://github.com/egarson/median-price-rails)).
 
 The point of this project was to get my Android feet wet; as this is part of a pedagogical exercise, the scope of it is quite limited.
 
-Please see the README for [median-project-rails](https://github.com/egarson/median-project-rails) for more information.
+Please see the README for [median-price-rails](https://github.com/egarson/median-price-rails) for more information.
 
 ## License
 
