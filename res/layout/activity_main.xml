@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="13dp" >
+
+    <TextView
+        android:id="@+id/txtBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:paddingTop="3dp"
+        android:text="@string/txtBrand"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtYearFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/txtYearFrom"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtYearFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtYearTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/txtYearTo"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtYearTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/btnGetMedian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnGetMedianClick"
+            android:text="@string/btnMedian" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+ 
+        <TextView
+            android:id="@+id/txtMedian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtMedian"
+            android:textSize="20sp" />
+
+        </LinearLayout>
+
+</LinearLayout>
